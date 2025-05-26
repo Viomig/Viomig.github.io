@@ -619,8 +619,7 @@ background-position: center;
     left:-5px;
     .entry {
       width:calc(50% - 80px);
-      float:left; 
-      padding:10px;
+      float:left;
       clear:both;
       text-align:right;
       &:not(:first-child) {
