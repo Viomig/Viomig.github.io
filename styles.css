@@ -325,6 +325,10 @@ body {
     .invitation-text{
         font-size: 20px;
     }
+
+    .celebration-text {
+        font-size: 24px;
+    }
 }
 
 /* Блок с дресс-кодом */
@@ -662,13 +666,14 @@ button {
     padding-top: 20px;
    }
    TD#leftcol {
-    padding: 40px;
-    width: 50%; /* Ширина левой колонки */
+    width: 50%;
+    padding: 20px; 
     border: 2px solid #000; /* Параметры рамки */
     border-left: 0px;
    }
    TD#rightcol {
-    padding: 40px;
+    width: 50%;
+    padding: 20px;
     border: 2px solid #000; /* Параметры рамки */
     border-right: 0px;
    }
