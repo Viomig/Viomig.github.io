@@ -335,7 +335,7 @@ body {
 }
 
 .dresscode-title {
-    font-size: 42px;
+    font-size: 38px;
     color: #5a3e3e;
     margin-bottom: 20px;
     position: relative;
@@ -353,8 +353,8 @@ body {
 }
 
 .dresscode-subtitle {
-    font-size: 24px;
-    color: #8a6d6d;
+    font-size: 32px;
+    color: #000000;
     max-width: 800px;
     margin: 0 auto 50px;
     line-height: 1.5;
@@ -375,9 +375,9 @@ body {
 
 .color-code {
     font-family: 'HP001';
-    font-size: 16px;
+    font-size: 20px;
     text-align: center;
-    color: #5a3e3e;
+    color: #000000;
 }
 
 .section-line-top,
@@ -392,11 +392,11 @@ body {
 
 @media (max-width: 768px) {
     .dresscode-title {
-        font-size: 32px;
+        font-size: 34px;
     }
     
     .dresscode-subtitle {
-        font-size: 20px;
+        font-size: 24px;
         padding: 0 20px;
     }
     
@@ -415,7 +415,7 @@ body {
 
 /* Блок анкеты гостя */
 .rsvp-section {
-    padding: 80px 0;
+    padding: 30px 0;
     
     font-family: 'HP001';
 }
