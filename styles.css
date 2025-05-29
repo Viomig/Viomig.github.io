@@ -140,12 +140,8 @@ body {
 .second-block {
     background-image: url("images/image36.png");
     min-height: 100%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-size: 100%;
-    box-sizing: border-box;
     
 }
 
@@ -200,7 +196,6 @@ body {
     text-align: center;
     margin-bottom: 100px;
     line-height: 1.3;
-    max-width: 900px;
 }
 
 .schedule {
@@ -226,7 +221,7 @@ body {
     font-family: 'HP001';
     font-size: 36px;
     flex-grow: 1;
-    padding-left: 50px;
+    
 }
 
 /* Третий блок */
@@ -305,7 +300,7 @@ body {
     }
     
     .dear-friends {
-        font-size: 80px;
+        font-size: 60px;
     }
     
     .date-container {
@@ -325,6 +320,10 @@ body {
     
     .venue-name {
         text-align: left;
+    }
+
+    .invitation-text{
+        font-size: 20px;
     }
 }
 
@@ -562,7 +561,6 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     height: 100%;
-    width: 100%;
     text-align: center;
     margin-top: 10px;
     font-size: 20px;
