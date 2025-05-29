@@ -26,6 +26,7 @@ body {
 
 .container{
     width: 100%;
+    
 }
 
 .section {
@@ -70,6 +71,7 @@ body {
     padding: 0;
     font-family: 'HP001';
     color: #000;
+    overflow-x: hidden;
 }
 
 /* Первый блок */
@@ -684,6 +686,7 @@ button {
 background-size: cover;
 background-position: center;
   color: white; /* Измените цвет текста если нужно */
+  flex-wrap: wrap;
 }
 .dresscode-section.fullscreen-bg-section::before {
     z-index: -1;
