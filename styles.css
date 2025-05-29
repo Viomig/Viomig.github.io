@@ -697,7 +697,7 @@ background-position: center;
     position: relative;
     left:-5px;
     .entry {
-      width:calc(50% - 100px);
+      width:calc(50% - 50px);
       float:left;
       clear:both;
       text-align:right;
