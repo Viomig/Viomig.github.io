@@ -559,6 +559,11 @@ body {
     font-size: 20px;
 }
 
+.ts1{
+    padding-top: -10px;
+    margin-top: -10px;
+}
+
 .telegram-section .line {
   
   border-bottom: 2px solid rgb(0, 0, 0);
