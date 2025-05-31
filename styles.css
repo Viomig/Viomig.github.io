@@ -163,7 +163,7 @@ body {
     font-family: 'HP001';
     font-size: 40px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     line-height: 1.3;
 }
 
@@ -195,7 +195,7 @@ body {
     font-family: 'HP001';
     font-size: 48px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 40px;
     line-height: 1.3;
 }
 
@@ -771,7 +771,7 @@ background-position: center;
 /* CSS */
 .wedding-date-section {
   padding: 60px 20px;
-  background-color: #f9f3e9;
+  background-color: #fcfcfc;
   text-align: center;
   font-family: 'HP001', serif;
 }
@@ -790,6 +790,7 @@ background-position: center;
 }
 
 .month {
+  text-align: center;
   font-size: 2.5rem;
   color: #5a3e3e;
   letter-spacing: 3px;
@@ -798,6 +799,7 @@ background-position: center;
 }
 
 .day {
+    text-align: center;
   font-size: 8rem;
   font-weight: bold;
   color: #000;
@@ -815,12 +817,13 @@ background-position: center;
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background-color: #c3775f;
+  background-color: #000000;
 }
 
 .year {
+    text-align: center;
   font-size: 2rem;
-  color: #5a3e3e;
+  color: #000000;
   letter-spacing: 2px;
   margin-top: 10px;
 }
@@ -873,3 +876,136 @@ background-position: center;
     margin: 20px auto;
   }
 }
+
+.timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        /* Центральная линия */
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 2px;
+            background-color: #000000;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+        
+        /* Контейнер события */
+        .event {
+            padding: 10px 40px;
+            position: relative;
+            width: 50%;
+            box-sizing: border-box;
+        }
+        
+        /* Четные события слева */
+        .event:nth-child(even) {
+            left: 0;
+            text-align: right;
+        }
+        
+        /* Нечетные события справа */
+        .event:nth-child(odd) {
+            left: 50%;
+            text-align: left;
+        }
+        
+        /* Точка на линии */
+        .event::after {
+            content: '';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background-color: white;
+            border: 3px solid #000000;
+            border-radius: 50%;
+            top: 20px;
+            z-index: 2;
+        }
+        
+        /* Позиция точки для левых событий */
+        .event:nth-child(even)::after {
+            right: -10px;
+        }
+        
+        /* Позиция точки для правых событий */
+        .event:nth-child(odd)::after {
+            left: -10px;
+        }
+        
+        /* Содержимое события */
+        .event-content {
+            padding: 20px;
+            background-color: #ffffff00;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        /* Стрелка для левых событий */
+        .event:nth-child(even) .event-content::after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent #f9f3e9;
+            right: -10px;
+            top: 20px;
+        }
+        
+        /* Стрелка для правых событий */
+        .event:nth-child(odd) .event-content::after {
+            content: '';
+            position: absolute;
+            border-style: solid;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #f9f3e9 transparent transparent;
+            left: -10px;
+            top: 20px;
+        }
+        
+        .event-time {
+            font-weight: 600;
+            color: #5a3e3e;
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .event-description {
+            color: #333;
+            margin-bottom: 0;
+        }
+        
+        /* Адаптация для мобильных */
+        @media (max-width: 768px) {
+            .timeline::after {
+                left: 31px;
+            }
+            
+            .event {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+                text-align: left !important;
+            }
+            
+            .event:nth-child(odd) {
+                left: 0;
+            }
+            
+            .event::after {
+                left: 20px !important;
+            }
+            
+            .event:nth-child(even) .event-content::after,
+            .event:nth-child(odd) .event-content::after {
+                left: -10px;
+                border-width: 10px 10px 10px 0;
+                border-color: transparent #f9f3e9 transparent transparent;
+            }
+        }
