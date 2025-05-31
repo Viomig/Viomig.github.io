@@ -5,8 +5,8 @@
     
 }
 @font-face {
-    font-family: 'HP001';
-    src: url('../fonts/HP001Full1-Medium_2.woff2') format('woff2');
+    font-family: 'HeinrichScript';
+    src: url('../fonts/HeinrichScript.woff2') format('woff2');
     
 }
 
@@ -69,7 +69,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     color: #000;
     overflow-x: hidden;
 }
@@ -85,7 +85,7 @@ body {
 }
 
 .names {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 123px;
     text-align: center;
     margin-bottom: 80px;
@@ -160,7 +160,7 @@ body {
 }
 
 .invitation-text {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
@@ -169,7 +169,7 @@ body {
 
 
 .celebration-text {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 48px;
     text-align: center;
     margin-bottom: 40px;
@@ -190,13 +190,13 @@ body {
 }
 
 .time {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 36px;
     width: 120px;
 }
 
 .event {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 36px;
     flex-grow: 1;
     
@@ -206,7 +206,7 @@ body {
 .location-section {
     padding: 80px 0;
     background-color: #f9f3e9;
-    font-family: 'HP001', serif;
+    font-family: 'HeinrichScript', serif;
     color: #333;
 }
 
@@ -259,7 +259,7 @@ body {
 .dresscode-section {
     padding: 20px 0;
     background-color: #fff;
-    font-family: 'HP001', serif;
+    font-family: 'HeinrichScript', serif;
     position: relative;
 }
 
@@ -303,7 +303,7 @@ body {
 }
 
 .color-code {
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     font-size: 20px;
     text-align: center;
     color: #000000;
@@ -330,7 +330,7 @@ body {
 .rsvp-section {
     padding: 30px 0;
     
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
 }
 
 .rsvp-title {
@@ -384,14 +384,14 @@ body {
     border-radius: 5px;
     padding: 12px 15px;
     font-size: 18px;
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
 }
 
 .input-group-text {
     
     border: 1px solid #d2a6a6;
     color: #5a3e3e;
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
 }
 
 .rsvp-options {
@@ -417,7 +417,7 @@ body {
     color: rgb(0, 0, 0);
     font-size: 20px;
     display: block;
-    font-family: 'HP001';
+    font-family: 'HeinrichScript';
     transition: background-color 0.3s;
 }
 
@@ -475,7 +475,7 @@ button {
   width: 300px;
   height: 100px;
   font-size: 50px;
-  font-family: 'HP001';
+  font-family: 'HeinrichScript';
   color: #bccad6;
   border: none;
    overflow: hidden;
@@ -504,7 +504,7 @@ button {
      overflow: hidden;
   --color1: #36486b;
   --color2: #bccad6;
-  font-family: 'HP001';
+  font-family: 'HeinrichScript';
   text-align: center;
   font-size: 60px;
   background: repeating-linear-gradient(
@@ -610,7 +610,7 @@ html, body {
   padding: 60px 20px;
   background-color: #fcfcfc;
   text-align: center;
-  font-family: 'HP001', serif;
+  font-family: 'HeinrichScript', serif;
 }
 
 .date-container {
@@ -782,7 +782,7 @@ html, body {
 
 .money-pls{
             z-index: 3;
-            font-family: 'HP001';
+            font-family: 'HeinrichScript';
     font-size: 40px;
     text-align: center;
     margin-bottom: 40px;
