@@ -161,7 +161,7 @@ body {
 
 .invitation-text {
     font-family: 'HeinrichScript';
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     margin-bottom: 40px;
     line-height: 1.3;
@@ -211,7 +211,7 @@ body {
 }
 
 .location-title {
-    font-size: 36px;
+    font-size: 46px;
     margin-bottom: 30px;
     color: #5a3e3e;
     position: relative;
@@ -223,19 +223,19 @@ body {
 }
 
 .address-label {
-    font-size: 24px;
+    font-size: 32px;
     color: #8a6d6d;
     margin-bottom: 20px;
 }
 
 .address-description {
-    font-size: 20px;
+    font-size: 28px;
     line-height: 1.6;
     margin-bottom: 30px;
 }
 
 .address-details {
-    font-size: 22px;
+    font-size: 28px;
     font-style: italic;
     color: #5a3e3e;
 }
@@ -304,7 +304,7 @@ body {
 
 .color-code {
     font-family: 'HeinrichScript';
-    font-size: 20px;
+    font-size: 28px;
     text-align: center;
     color: #000000;
 }
@@ -415,7 +415,7 @@ body {
 .btn-submit {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 28px;
     display: block;
     font-family: 'HeinrichScript';
     transition: background-color 0.3s;
@@ -453,7 +453,7 @@ body {
     height: 100%;
     text-align: center;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 32px;
 }
 
 .ts1{
@@ -555,6 +555,7 @@ button {
     padding: 5px; /* Поля вокруг ячеек */
    }
    .pad{
+    font-size: 40px;
     padding-bottom: 30px;
     padding-top: 20px;
    }
@@ -845,7 +846,7 @@ html, body {
     }
 
     .invitation-text{
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .celebration-text {
@@ -857,7 +858,7 @@ html, body {
     }
     
     .rsvp-subtitle {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .rsvp-form {
