@@ -472,13 +472,17 @@ body {
   
 }
 
+.a{
+    font-size: 30px;
+}
+
 button {
   margin: auto;
   border-radius: 20px;
   background-color: #667292;
   box-shadow: 10px 15px 40px #36486b;
-  width: 300px;
-  height: 100px;
+  width: 350px;
+  height: 120px;
   font-size: 50px;
   font-family: 'HeinrichScript';
   color: #bccad6;
@@ -491,6 +495,10 @@ button:hover {
   background-color: #8d9db6;
   opacity: 1;
   color: #36486b;
+}
+
+a.btn-telegram{
+    font-size: 22px;
 }
 
 .center {
@@ -796,6 +804,7 @@ html, body {
 }
 
 .title-chat{
+    font-family: 'Alistair';
     position: relative;
 }
 
