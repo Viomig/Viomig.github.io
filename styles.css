@@ -16,6 +16,11 @@
     src: url('../fonts/Felidae.woff2') format('woff2');
     
 }
+
+h1{
+    font-style: bold;
+    font-size: 40px;
+}
 /* Общие стили */
 body {
     font-family: Arial, sans-serif;
@@ -555,7 +560,7 @@ button {
     padding: 5px; /* Поля вокруг ячеек */
    }
    .pad{
-    font-size: 40px;
+    font-size: 36px;
     padding-bottom: 30px;
     padding-top: 20px;
    }
@@ -784,10 +789,25 @@ html, body {
 .money-pls{
             z-index: 3;
             font-family: 'HeinrichScript';
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     line-height: 1.3;
+}
+
+.title-chat{
+    position: relative;
+}
+
+.title-chat::after{
+     content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 1px;
+    background-color: #b38b8b;
 }
 
 /* Адаптивность */
@@ -885,11 +905,24 @@ html, body {
     }
 
     .money-pls{
+    padding-top: 10px;
     font-size: 24px;
     }
 
     .telegram-section {
     font-size: 22px;
+    }
+
+    .pad{
+        font-size: 20px;
+    }
+
+    .leftcol{
+        font-size: 22px;
+    }
+
+    .rightcol{
+        font-size: 22px;
     }
 
     .timeline::after {
@@ -943,6 +976,7 @@ html, body {
   }
 
   .money-pls{
+    padding-top: 10px;
     font-size: 24px;
   }
 }
