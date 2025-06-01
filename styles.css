@@ -656,8 +656,8 @@ html, body {
 
 .month {
   text-align: center;
-  font-size: 2.5rem;
-  color: #5a3e3e;
+  font-size: 3rem;
+  color: #000000;
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -665,7 +665,7 @@ html, body {
 
 .day {
     text-align: center;
-  font-size: 8rem;
+  font-size: 9rem;
   font-weight: bold;
   color: #000;
   line-height: 1;
@@ -687,7 +687,7 @@ html, body {
 
 .year {
     text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #000000;
   letter-spacing: 2px;
   margin-top: 10px;
@@ -1018,20 +1018,20 @@ html, body {
         }
 
         .date-day {
-            font-size: min(8vw, 52px);
+            font-size: min(14vw, 64px);
             font-weight: 700;
-            color: #5a3e3e;
+            color: #161616;
         }
 
         .date-month {
-            font-size: min(4vw, 32px);
+            font-size: min(10vw, 32px);
             font-weight: 500;
             color: #8a6d6d;
             text-transform: lowercase;
         }
 
         .date-year {
-            font-size: min(4vw, 24px);
+            font-size: min(8vw, 24px);
             font-weight: 500;
             color: #8a6d6d;
         }
